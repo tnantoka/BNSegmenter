@@ -17,6 +17,12 @@
 		9B4DF13215C189A3003C4EEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4DF11215C189A2003C4EEB /* Cocoa.framework */; };
 		9B4DF13A15C189A3003C4EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DF13815C189A3003C4EEB /* InfoPlist.strings */; };
 		9B4DF13D15C189A3003C4EEB /* BNSegmenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF13C15C189A3003C4EEB /* BNSegmenterTests.m */; };
+		9B4DF14C15C18B4D003C4EEB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4DF13015C189A3003C4EEB /* SenTestingKit.framework */; };
+		9B4DF14D15C18B4D003C4EEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4DF11215C189A2003C4EEB /* Cocoa.framework */; };
+		9B4DF15315C18B4E003C4EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DF15115C18B4E003C4EEB /* InfoPlist.strings */; };
+		9B4DF15E15C18C14003C4EEB /* BNSegmenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF15D15C18C14003C4EEB /* BNSegmenter.m */; };
+		9B4DF16115C18D38003C4EEB /* BNSegmenterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF16015C18D38003C4EEB /* BNSegmenterTest.m */; };
+		9B4DF16315C190AB003C4EEB /* BNSegmenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF15D15C18C14003C4EEB /* BNSegmenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,14 @@
 		9B4DF13915C189A3003C4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B4DF13B15C189A3003C4EEB /* BNSegmenterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNSegmenterTests.h; sourceTree = "<group>"; };
 		9B4DF13C15C189A3003C4EEB /* BNSegmenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNSegmenterTests.m; sourceTree = "<group>"; };
+		9B4DF14B15C18B4D003C4EEB /* BNSegmenterLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNSegmenterLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4DF15015C18B4E003C4EEB /* BNSegmenterLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNSegmenterLogicTests-Info.plist"; sourceTree = "<group>"; };
+		9B4DF15215C18B4E003C4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B4DF15715C18B4F003C4EEB /* BNSegmenterLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNSegmenterLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		9B4DF15C15C18C14003C4EEB /* BNSegmenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNSegmenter.h; path = BNSegmenter/BNSegmenter.h; sourceTree = "<group>"; };
+		9B4DF15D15C18C14003C4EEB /* BNSegmenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNSegmenter.m; path = BNSegmenter/BNSegmenter.m; sourceTree = "<group>"; };
+		9B4DF15F15C18D38003C4EEB /* BNSegmenterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNSegmenterTest.h; sourceTree = "<group>"; };
+		9B4DF16015C18D38003C4EEB /* BNSegmenterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNSegmenterTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B4DF14715C18B4D003C4EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4DF14C15C18B4D003C4EEB /* SenTestingKit.framework in Frameworks */,
+				9B4DF14D15C18B4D003C4EEB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +100,7 @@
 			children = (
 				9B4DF11815C189A2003C4EEB /* BNSegmenter */,
 				9B4DF13515C189A3003C4EEB /* BNSegmenterTests */,
+				9B4DF14E15C18B4D003C4EEB /* BNSegmenterLogicTests */,
 				9B4DF11115C189A2003C4EEB /* Frameworks */,
 				9B4DF10F15C189A2003C4EEB /* Products */,
 			);
@@ -87,6 +111,7 @@
 			children = (
 				9B4DF10E15C189A2003C4EEB /* BNSegmenter.app */,
 				9B4DF12F15C189A3003C4EEB /* BNSegmenterTests.octest */,
+				9B4DF14B15C18B4D003C4EEB /* BNSegmenterLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +139,7 @@
 		9B4DF11815C189A2003C4EEB /* BNSegmenter */ = {
 			isa = PBXGroup;
 			children = (
+				9B9FF0B015C198E700FA4F6A /* BNSegmenter */,
 				9B4DF12415C189A2003C4EEB /* BNAppDelegate.h */,
 				9B4DF12515C189A2003C4EEB /* BNAppDelegate.m */,
 				9B4DF12715C189A2003C4EEB /* MainMenu.xib */,
@@ -151,6 +177,35 @@
 				9B4DF13815C189A3003C4EEB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B4DF14E15C18B4D003C4EEB /* BNSegmenterLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF14F15C18B4E003C4EEB /* Supporting Files */,
+				9B4DF15F15C18D38003C4EEB /* BNSegmenterTest.h */,
+				9B4DF16015C18D38003C4EEB /* BNSegmenterTest.m */,
+			);
+			path = BNSegmenterLogicTests;
+			sourceTree = "<group>";
+		};
+		9B4DF14F15C18B4E003C4EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF15015C18B4E003C4EEB /* BNSegmenterLogicTests-Info.plist */,
+				9B4DF15115C18B4E003C4EEB /* InfoPlist.strings */,
+				9B4DF15715C18B4F003C4EEB /* BNSegmenterLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B9FF0B015C198E700FA4F6A /* BNSegmenter */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF15C15C18C14003C4EEB /* BNSegmenter.h */,
+				9B4DF15D15C18C14003C4EEB /* BNSegmenter.m */,
+			);
+			name = BNSegmenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +247,24 @@
 			productReference = 9B4DF12F15C189A3003C4EEB /* BNSegmenterTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		9B4DF14A15C18B4D003C4EEB /* BNSegmenterLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4DF15815C18B4F003C4EEB /* Build configuration list for PBXNativeTarget "BNSegmenterLogicTests" */;
+			buildPhases = (
+				9B4DF14615C18B4D003C4EEB /* Sources */,
+				9B4DF14715C18B4D003C4EEB /* Frameworks */,
+				9B4DF14815C18B4D003C4EEB /* Resources */,
+				9B4DF14915C18B4D003C4EEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNSegmenterLogicTests;
+			productName = BNSegmenterLogicTests;
+			productReference = 9B4DF14B15C18B4D003C4EEB /* BNSegmenterLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,6 +289,7 @@
 			targets = (
 				9B4DF10D15C189A2003C4EEB /* BNSegmenter */,
 				9B4DF12E15C189A3003C4EEB /* BNSegmenterTests */,
+				9B4DF14A15C18B4D003C4EEB /* BNSegmenterLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,10 +313,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B4DF14815C18B4D003C4EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4DF15315C18B4E003C4EEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		9B4DF12D15C189A3003C4EEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		9B4DF14915C18B4D003C4EEB /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,6 +359,7 @@
 			files = (
 				9B4DF11F15C189A2003C4EEB /* main.m in Sources */,
 				9B4DF12615C189A2003C4EEB /* BNAppDelegate.m in Sources */,
+				9B4DF15E15C18C14003C4EEB /* BNSegmenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +368,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B4DF13D15C189A3003C4EEB /* BNSegmenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4DF14615C18B4D003C4EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4DF16115C18D38003C4EEB /* BNSegmenterTest.m in Sources */,
+				9B4DF16315C190AB003C4EEB /* BNSegmenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +419,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				9B4DF13915C189A3003C4EEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B4DF15115C18B4E003C4EEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4DF15215C18B4E003C4EEB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -422,6 +535,32 @@
 			};
 			name = Release;
 		};
+		9B4DF15915C18B4F003C4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNSegmenterLogicTests/BNSegmenterLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "BNSegmenterLogicTests/BNSegmenterLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B4DF15A15C18B4F003C4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNSegmenterLogicTests/BNSegmenterLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "BNSegmenterLogicTests/BNSegmenterLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -441,6 +580,7 @@
 				9B4DF14215C189A3003C4EEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B4DF14315C189A3003C4EEB /* Build configuration list for PBXNativeTarget "BNSegmenterTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +589,16 @@
 				9B4DF14515C189A3003C4EEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4DF15815C18B4F003C4EEB /* Build configuration list for PBXNativeTarget "BNSegmenterLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4DF15915C18B4F003C4EEB /* Debug */,
+				9B4DF15A15C18B4F003C4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

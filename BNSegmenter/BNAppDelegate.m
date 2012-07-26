@@ -8,6 +8,8 @@
 
 #import "BNAppDelegate.h"
 
+#import "BNSegmenter.h"
+
 @implementation BNAppDelegate
 
 - (void)dealloc
@@ -18,6 +20,13 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+}
+
+- (IBAction)segmentAction:(id)sender {
+    NSString *inputText = _inputField.stringValue;
+    if (inputText.length > 0) {
+       _outputField.stringValue = [[BNSegmenter shared] separate:inputText separator:@"|"];
+    }
 }
 
 @end

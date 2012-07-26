@@ -12,4 +12,9 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+// segment test
+@property (assign) IBOutlet NSTextField *inputField;
+@property (assign) IBOutlet NSTextField *outputField;
+- (IBAction)segmentAction:(id)sender;
+
 @end
