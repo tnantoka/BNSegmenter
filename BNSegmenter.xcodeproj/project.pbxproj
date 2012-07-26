@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B4DF11315C189A2003C4EEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4DF11215C189A2003C4EEB /* Cocoa.framework */; };
+		9B4DF11D15C189A2003C4EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DF11B15C189A2003C4EEB /* InfoPlist.strings */; };
+		9B4DF11F15C189A2003C4EEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF11E15C189A2003C4EEB /* main.m */; };
+		9B4DF12315C189A2003C4EEB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DF12115C189A2003C4EEB /* Credits.rtf */; };
+		9B4DF12615C189A2003C4EEB /* BNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF12515C189A2003C4EEB /* BNAppDelegate.m */; };
+		9B4DF12915C189A2003C4EEB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DF12715C189A2003C4EEB /* MainMenu.xib */; };
+		9B4DF13115C189A3003C4EEB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4DF13015C189A3003C4EEB /* SenTestingKit.framework */; };
+		9B4DF13215C189A3003C4EEB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4DF11215C189A2003C4EEB /* Cocoa.framework */; };
+		9B4DF13A15C189A3003C4EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B4DF13815C189A3003C4EEB /* InfoPlist.strings */; };
+		9B4DF13D15C189A3003C4EEB /* BNSegmenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DF13C15C189A3003C4EEB /* BNSegmenterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B4DF13315C189A3003C4EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B4DF10515C189A2003C4EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4DF10D15C189A2003C4EEB;
+			remoteInfo = BNSegmenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B4DF10E15C189A2003C4EEB /* BNSegmenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNSegmenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4DF11215C189A2003C4EEB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9B4DF11515C189A2003C4EEB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9B4DF11615C189A2003C4EEB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9B4DF11715C189A2003C4EEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B4DF11A15C189A2003C4EEB /* BNSegmenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNSegmenter-Info.plist"; sourceTree = "<group>"; };
+		9B4DF11C15C189A2003C4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B4DF11E15C189A2003C4EEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B4DF12015C189A2003C4EEB /* BNSegmenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNSegmenter-Prefix.pch"; sourceTree = "<group>"; };
+		9B4DF12215C189A2003C4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9B4DF12415C189A2003C4EEB /* BNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNAppDelegate.h; sourceTree = "<group>"; };
+		9B4DF12515C189A2003C4EEB /* BNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNAppDelegate.m; sourceTree = "<group>"; };
+		9B4DF12815C189A2003C4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9B4DF12F15C189A3003C4EEB /* BNSegmenterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNSegmenterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4DF13015C189A3003C4EEB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9B4DF13715C189A3003C4EEB /* BNSegmenterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNSegmenterTests-Info.plist"; sourceTree = "<group>"; };
+		9B4DF13915C189A3003C4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B4DF13B15C189A3003C4EEB /* BNSegmenterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNSegmenterTests.h; sourceTree = "<group>"; };
+		9B4DF13C15C189A3003C4EEB /* BNSegmenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNSegmenterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B4DF10B15C189A2003C4EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4DF11315C189A2003C4EEB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4DF12B15C189A3003C4EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4DF13115C189A3003C4EEB /* SenTestingKit.framework in Frameworks */,
+				9B4DF13215C189A3003C4EEB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B4DF10315C189A2003C4EEB = {
+			isa = PBXGroup;
+			children = (
+				9B4DF11815C189A2003C4EEB /* BNSegmenter */,
+				9B4DF13515C189A3003C4EEB /* BNSegmenterTests */,
+				9B4DF11115C189A2003C4EEB /* Frameworks */,
+				9B4DF10F15C189A2003C4EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B4DF10F15C189A2003C4EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF10E15C189A2003C4EEB /* BNSegmenter.app */,
+				9B4DF12F15C189A3003C4EEB /* BNSegmenterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B4DF11115C189A2003C4EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF11215C189A2003C4EEB /* Cocoa.framework */,
+				9B4DF13015C189A3003C4EEB /* SenTestingKit.framework */,
+				9B4DF11415C189A2003C4EEB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B4DF11415C189A2003C4EEB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF11515C189A2003C4EEB /* AppKit.framework */,
+				9B4DF11615C189A2003C4EEB /* CoreData.framework */,
+				9B4DF11715C189A2003C4EEB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9B4DF11815C189A2003C4EEB /* BNSegmenter */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF12415C189A2003C4EEB /* BNAppDelegate.h */,
+				9B4DF12515C189A2003C4EEB /* BNAppDelegate.m */,
+				9B4DF12715C189A2003C4EEB /* MainMenu.xib */,
+				9B4DF11915C189A2003C4EEB /* Supporting Files */,
+			);
+			path = BNSegmenter;
+			sourceTree = "<group>";
+		};
+		9B4DF11915C189A2003C4EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF11A15C189A2003C4EEB /* BNSegmenter-Info.plist */,
+				9B4DF11B15C189A2003C4EEB /* InfoPlist.strings */,
+				9B4DF11E15C189A2003C4EEB /* main.m */,
+				9B4DF12015C189A2003C4EEB /* BNSegmenter-Prefix.pch */,
+				9B4DF12115C189A2003C4EEB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B4DF13515C189A3003C4EEB /* BNSegmenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF13B15C189A3003C4EEB /* BNSegmenterTests.h */,
+				9B4DF13C15C189A3003C4EEB /* BNSegmenterTests.m */,
+				9B4DF13615C189A3003C4EEB /* Supporting Files */,
+			);
+			path = BNSegmenterTests;
+			sourceTree = "<group>";
+		};
+		9B4DF13615C189A3003C4EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DF13715C189A3003C4EEB /* BNSegmenterTests-Info.plist */,
+				9B4DF13815C189A3003C4EEB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B4DF10D15C189A2003C4EEB /* BNSegmenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4DF14015C189A3003C4EEB /* Build configuration list for PBXNativeTarget "BNSegmenter" */;
+			buildPhases = (
+				9B4DF10A15C189A2003C4EEB /* Sources */,
+				9B4DF10B15C189A2003C4EEB /* Frameworks */,
+				9B4DF10C15C189A2003C4EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNSegmenter;
+			productName = BNSegmenter;
+			productReference = 9B4DF10E15C189A2003C4EEB /* BNSegmenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B4DF12E15C189A3003C4EEB /* BNSegmenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4DF14315C189A3003C4EEB /* Build configuration list for PBXNativeTarget "BNSegmenterTests" */;
+			buildPhases = (
+				9B4DF12A15C189A3003C4EEB /* Sources */,
+				9B4DF12B15C189A3003C4EEB /* Frameworks */,
+				9B4DF12C15C189A3003C4EEB /* Resources */,
+				9B4DF12D15C189A3003C4EEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4DF13415C189A3003C4EEB /* PBXTargetDependency */,
+			);
+			name = BNSegmenterTests;
+			productName = BNSegmenterTests;
+			productReference = 9B4DF12F15C189A3003C4EEB /* BNSegmenterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B4DF10515C189A2003C4EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BN;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Tatsuya Tobioka";
+			};
+			buildConfigurationList = 9B4DF10815C189A2003C4EEB /* Build configuration list for PBXProject "BNSegmenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B4DF10315C189A2003C4EEB;
+			productRefGroup = 9B4DF10F15C189A2003C4EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B4DF10D15C189A2003C4EEB /* BNSegmenter */,
+				9B4DF12E15C189A3003C4EEB /* BNSegmenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B4DF10C15C189A2003C4EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4DF11D15C189A2003C4EEB /* InfoPlist.strings in Resources */,
+				9B4DF12315C189A2003C4EEB /* Credits.rtf in Resources */,
+				9B4DF12915C189A2003C4EEB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4DF12C15C189A3003C4EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4DF13A15C189A3003C4EEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B4DF12D15C189A3003C4EEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B4DF10A15C189A2003C4EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4DF11F15C189A2003C4EEB /* main.m in Sources */,
+				9B4DF12615C189A2003C4EEB /* BNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4DF12A15C189A3003C4EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4DF13D15C189A3003C4EEB /* BNSegmenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B4DF13415C189A3003C4EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4DF10D15C189A2003C4EEB /* BNSegmenter */;
+			targetProxy = 9B4DF13315C189A3003C4EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B4DF11B15C189A2003C4EEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4DF11C15C189A2003C4EEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B4DF12115C189A2003C4EEB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4DF12215C189A2003C4EEB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9B4DF12715C189A2003C4EEB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4DF12815C189A2003C4EEB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9B4DF13815C189A3003C4EEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4DF13915C189A3003C4EEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B4DF13E15C189A3003C4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9B4DF13F15C189A3003C4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9B4DF14115C189A3003C4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNSegmenter/BNSegmenter-Prefix.pch";
+				INFOPLIST_FILE = "BNSegmenter/BNSegmenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B4DF14215C189A3003C4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNSegmenter/BNSegmenter-Prefix.pch";
+				INFOPLIST_FILE = "BNSegmenter/BNSegmenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9B4DF14415C189A3003C4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BNSegmenter.app/Contents/MacOS/BNSegmenter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNSegmenter/BNSegmenter-Prefix.pch";
+				INFOPLIST_FILE = "BNSegmenterTests/BNSegmenterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B4DF14515C189A3003C4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BNSegmenter.app/Contents/MacOS/BNSegmenter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNSegmenter/BNSegmenter-Prefix.pch";
+				INFOPLIST_FILE = "BNSegmenterTests/BNSegmenterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B4DF10815C189A2003C4EEB /* Build configuration list for PBXProject "BNSegmenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4DF13E15C189A3003C4EEB /* Debug */,
+				9B4DF13F15C189A3003C4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4DF14015C189A3003C4EEB /* Build configuration list for PBXNativeTarget "BNSegmenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4DF14115C189A3003C4EEB /* Debug */,
+				9B4DF14215C189A3003C4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B4DF14315C189A3003C4EEB /* Build configuration list for PBXNativeTarget "BNSegmenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4DF14415C189A3003C4EEB /* Debug */,
+				9B4DF14515C189A3003C4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B4DF10515C189A2003C4EEB /* Project object */;
+}
