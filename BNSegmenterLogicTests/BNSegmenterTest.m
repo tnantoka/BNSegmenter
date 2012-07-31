@@ -31,7 +31,7 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testSegment
 {
     NSString *string = @"すもももももももものうち";
     NSString *segmented = @"すもも|も|もも|も|もも|の|うち";
